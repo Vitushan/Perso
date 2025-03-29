@@ -235,3 +235,46 @@ label {
     margin-right: 10px;
     color: #777;
 }
+
+input[type="text"]
+{
+    padding: 10px;
+    font-size: 20px;
+    margin-right: 20px;
+    border: 2px solid #ddd;
+}
+
+.button3 {
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 11px;
+    background-color: #02b8dd;
+    border-style: none;
+    border-radius: 3px;
+}
+
+.button3:hover {
+    color: #fff;
+    background-color: #444;
+}
+
+/* FOOTER */
+
+footer {
+    height: 260px;
+    background-color: #444;
+}
+
+footer h1 {
+    color: white;
+    text-align: center;
+    padding: 80px;
+}
+
+.copyright {
+    text-align: center;
+    font-weight: bold;
+    padding-top: 20px;
+    color: #777;
+}
