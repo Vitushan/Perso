@@ -197,13 +197,6 @@ article h4 {
     margin-bottom: 20px;
 }
 
-.button1 {
-    color: white;
-    background-color: #ff7a00;
-    padding: 6px 20px;
-    border-radius: 3px;
-}
-
 .button2 {
     color: white;
     background-color: #ff7a00;
@@ -284,4 +277,5 @@ footer h1 {
     font-weight: bold;
     padding-top: 20px;
     color: #777;
+
 }
