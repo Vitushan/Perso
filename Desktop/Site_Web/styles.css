@@ -9,6 +9,7 @@
 body {
     font-family: 'Arial', 'Sans-serif';
     font-size: 15px;
+    height: 100%;
 }
 
 h1 {
@@ -23,7 +24,7 @@ h3 {
 }
 
 h4 {
-    font-size: 30px;
+    font-size: 24px;
     color: #444;
 }
 
@@ -41,10 +42,10 @@ a {
 }
 
 .wrapper {
-    height: 940px;
+    
     margin: 0 auto;
     padding: 0 10px;
-    max-width: 1200px;
+    height: auto;
 }
 
 /* Color class for orange */
@@ -87,6 +88,11 @@ header nav ul li a {
     font-weight: bold;
     margin-right: 20px;
 }
+
+header nav ul li a:hover {
+    color: #ff7a00;
+}
+
 
 /* Main Page */
 
@@ -177,11 +183,15 @@ header nav ul li a {
 .overlay {
     background: rgba(255, 255, 255, 0.95);
     height: 100%;
-    width: 190px;
+    width: 50%;
+    min-width: 200px;
     padding: 20px;
     border-radius: 10px 0 0 10px;
     text-align: center;
     box-sizing: border-box;
+    position: relative;
+    padding-bottom: 10px;
+    padding-top: 5px;
 }
 
 article h4 {
@@ -198,10 +208,15 @@ article h4 {
 }
 
 .button2 {
-    color: white;
+    display: block;
+    color: rgb(12, 11, 11);
     background-color: #ff7a00;
     padding: 6px 20px;
     border-radius: 3px;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 .button2:hover {
@@ -214,9 +229,8 @@ article h4 {
 #contact {
     padding: 60px 0;
     text-align: center;
-
 }
-
+ 
 #contact h3 {
     width: 400px;
     text-transform: uppercase;
@@ -264,12 +278,14 @@ input[type="text"]
 footer {
     height: 260px;
     background-color: #444;
+    margin-top: auto;
 }
 
 footer h1 {
     color: white;
     text-align: center;
     padding: 80px;
+
 }
 
 .copyright {
