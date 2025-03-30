@@ -42,7 +42,6 @@ a {
 }
 
 .wrapper {
-    
     margin: 0 auto;
     padding: 0 10px;
     height: auto;
@@ -130,12 +129,13 @@ header nav ul li a:hover {
 /* STEPS */
 
 #step ul {
+    text-align: center;
     margin: 80px 0;
 }
 
 #step ul li {
     width: 300px;
-    float: left;
+    display: inline-block;
     padding-top: 140px;
     text-align: center;
     margin-right: 10px;
@@ -194,6 +194,9 @@ header nav ul li a:hover {
     padding-top: 5px;
 }
 
+article {
+    margin-bottom: 20px;
+}
 article h4 {
     border-bottom: solid #ddd;
     padding-bottom: 20px;
@@ -293,5 +296,4 @@ footer h1 {
     font-weight: bold;
     padding-top: 20px;
     color: #777;
-
 }
